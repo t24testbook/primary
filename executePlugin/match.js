@@ -1,3 +1,3 @@
 $(function() {
-    alert("this js is loaded test from htjhin branch");
+    console.log("this js is loaded test from htjhin branch");
 });
