@@ -1,0 +1,11 @@
+{
+  "executePlugin": {
+    "match": "match.js"
+  },
+  "extensionPlugin": {
+
+  },
+  "validatePlugin": {
+    
+  }
+}
