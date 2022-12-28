@@ -1,3 +1,4 @@
-{"executePlugin":
-  "match": "match.js"
+{"executePlugin": {
+    "match": "match.js"
+  }
 }
