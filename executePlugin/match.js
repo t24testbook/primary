@@ -1,8 +1,10 @@
-const init = function(callback) {
-    callback("test");
+const obj = {
+    type: "executePlugin",
+    id: "match",
+    arguments: {},
+    execute: (args) => {
+        console.log(args);
+    }
 }
 
-init((s) => {
-    console.log(s);
-    console.log(window.pluginIndex);
-});
+window.registerPlugin(obj);
