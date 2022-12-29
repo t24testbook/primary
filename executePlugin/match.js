@@ -1,3 +1,3 @@
-{
-    init: (callback) => {callback("test");}
+const init = function(callback) {
+    callback("test");
 }
