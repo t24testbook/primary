@@ -1,3 +1,3 @@
 {
-    init: (callback) => {callback(this);}
+    init: (callback) => {callback("test");}
 }
