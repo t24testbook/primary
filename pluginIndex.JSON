@@ -1,6 +1,6 @@
 {
   "executePlugin": {
-    "match": "match.js"
+    "match": {"path": "example.js"}
   },
   "extensionPlugin": {
 

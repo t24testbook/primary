@@ -1,10 +1,10 @@
 const obj = {
     type: "executePlugin",
-    id: "match",
+    id: "example",
     arguments: {},
-    execute: (args) => {
+    execute: (base, args) => {
         console.log(args);
     }
-}
+};
 
 window.registerPlugin(obj);
