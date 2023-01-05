@@ -1,6 +1,7 @@
 {
   "executePlugin": {
-    "example": {"path": "example.js"}
+    "example": {"path": "example.js"},
+    "dummyTest": {"path": "dummy.js"}
   },
   "extensionPlugin": {
   },
