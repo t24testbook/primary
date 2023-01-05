@@ -1,11 +1,9 @@
 {
   "executePlugin": {
-    "match": {"path": "example.js"}
+    "example": {"path": "example.js"}
   },
   "extensionPlugin": {
-
   },
   "validatePlugin": {
-    
   }
 }
