@@ -11,4 +11,4 @@ const obj = {
     }
 };
 
-window.registerPlugin(obj);
+window.registerPlugin(obj, window.pluginIndex);
