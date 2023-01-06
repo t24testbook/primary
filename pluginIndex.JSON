@@ -6,7 +6,7 @@
   "extensionPlugin": {
     "example": {"path": "example.js"}
   },
-  "validatePlugin": {
+  "validationPlugin": {
     "example": {"path": "example.js"}
   }
 }
