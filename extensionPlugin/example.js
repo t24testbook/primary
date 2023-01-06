@@ -1,7 +1,7 @@
 const obj = {
-    type: "executePlugin",
+    type: "extensionPlugin",
     id: "example",
-    description: "This is an example for execute plugin",
+    description: "This is an example for extension plugin",
     author: "Hariyanto Tjhin",
     version: "1.0",
     lastUpdate: "3-JAN-2023",

@@ -4,6 +4,7 @@
     "dummyTest": {"path": "dummy.js"}
   },
   "extensionPlugin": {
+    "example": {"path": "example.js"}
   },
   "validatePlugin": {
   }
