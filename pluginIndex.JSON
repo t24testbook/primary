@@ -7,5 +7,6 @@
     "example": {"path": "example.js"}
   },
   "validatePlugin": {
+    "example": {"path": "example.js"}
   }
 }
