@@ -8,5 +8,8 @@
   },
   "validationPlugin": {
     "example": {"path": "example.js"}
+  },
+  "extensionQueryPlugin": {
+    "example": {"path": "example.js"}
   }
 }
