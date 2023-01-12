@@ -3,8 +3,8 @@ const obj = {
     id: "compare",
     description: "This plugin is for comparing actual and expected value with different operator, %...% check if actual is part of the expected value",
     author: "Hariyanto Tjhin",
-    version: "1.0",
-    lastUpdate: "3-JAN-2023",
+    version: "1.01",
+    lastUpdate: "12-JAN-2023",
     arguments: {
         op: {type: "list", desc: "compare operator", list: ["=", "<>", ">", ">=", "<", "<=", "%...%"]}
     },
@@ -17,10 +17,16 @@ const obj = {
                 break;
             case ">":
                 break;
-            case ":
+            case ">=":
+                break;
+            case "<":
+                break;
+            case "<=":
+                break;
+            case "%...%":
+                let x = args.test.include("x");
                 break;
             default:
-                let x = args.test.include("x");
         }
 
         return true;
