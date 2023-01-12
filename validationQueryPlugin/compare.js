@@ -3,7 +3,7 @@ const obj = {
     id: "compare",
     description: "This plugin is for comparing actual and expected value with different operator, %...% check if actual is part of the expected value",
     author: "Hariyanto Tjhin",
-    version: "1.02",
+    version: "1.03",
     lastUpdate: "12-JAN-2023",
     arguments: {
         op: {type: "list", desc: "compare operator", list: ["=", "<>", ">", ">=", "<", "<=", "%...%"]}
@@ -12,7 +12,7 @@ const obj = {
         //console.log(this, base, args);
 
         if (base === "val") {
-            return validate(args);
+            return this.validate(args);
         }
 
         switch(args.op) {
