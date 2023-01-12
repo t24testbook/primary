@@ -13,6 +13,7 @@
     "example": {"path": "example.js"}
   },
   "validationQueryPlugin": {
-    "example": {"path": "example.js"}
+    "example": {"path": "example.js"},
+    "compare": {"path": "compare.js"}
   }
 }
