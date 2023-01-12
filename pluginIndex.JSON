@@ -11,5 +11,8 @@
   },
   "extensionQueryPlugin": {
     "example": {"path": "example.js"}
+  },
+  "validationQueryPlugin": {
+    "example": {"path": "example.js"}
   }
 }
