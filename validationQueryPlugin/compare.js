@@ -12,12 +12,6 @@ const obj = {
         return {status: "error", message: "test validate error message"};
     },
     execute: (base, args) => {
-        console.log(this, base, args);
-
-        if (base === "val") {
-            return this.validate(args);
-        }
-
         switch(args.op) {
             case "=":
                 break;
@@ -38,8 +32,7 @@ const obj = {
         }
 
         return true;
-    },
-    init: () => this
-}.init();
+    }
+};
 
 window.registerPlugin(obj, window.pluginIndex);
