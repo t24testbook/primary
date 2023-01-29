@@ -10,7 +10,8 @@ const obj = {
         var2: {type: "number", desc: "var2 argument is for ..."}
     },
     execute: (base, args) => {
-        console.log(this, base, args);
+        console.log(base, args);
+        return {status: "ok", value: args.var1 + ":" + args.var2}
     }
 };
 
