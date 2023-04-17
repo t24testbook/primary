@@ -1,5 +1,6 @@
 {
   "executePlugin": {
+    "string": {"path": "string.js"},
     "example": {"path": "example.js"},
     "test": {"path": "test.js"},
     "testError": {"path": "testError.js"},
