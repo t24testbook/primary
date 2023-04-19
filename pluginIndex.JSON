@@ -7,7 +7,9 @@
     "dummyTest": {"path": "dummy.js"}
   },
   "extensionPlugin": {
-    "example": {"path": "example.js"}
+    "example": {"path": "example.js"},
+    "testError": {"path": "testError.js"},
+    "dummyTest": {"path": "dummy.js"}
   },
   "validationPlugin": {
     "example": {"path": "example.js"}
