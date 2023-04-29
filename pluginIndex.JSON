@@ -12,7 +12,10 @@
     "dummyTest": {"path": "dummy.js"}
   },
   "validationPlugin": {
-    "example": {"path": "example.js"}
+    "operator": {"path": "operator.js"},
+    "example": {"path": "example.js"},
+    "testError": {"path": "testError.js"},
+    "dummyTest": {"path": "dummy.js"}
   },
   "extensionQueryPlugin": {
     "example": {"path": "example.js"}
