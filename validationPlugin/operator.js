@@ -9,8 +9,8 @@ const obj = {
         operand: {type: "list", desc: "choose which operand", list: ["EQ", "NE", "GT", "GE", "LT", "LE", "CONTAINS", "NOT CONTAINS", "BEGINS WITH", "ENDS WITH"]}
     },
     execute: (base, args) => {
-        console.log(this);
-        return this[args.operand](base.actual, base.expected);
+        console.log(obj);
+        return obj[args.operand](base.actual, base.expected);
     },
     EQ: (_act, _exp) => {
         console.log("EQ", _act, _exp);
