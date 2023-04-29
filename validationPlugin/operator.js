@@ -13,9 +13,11 @@ const obj = {
     },
     EQ: (_act, _exp) => {
         console.log("EQ", _act, _exp);
+        return (_act === _exp);
     },
     NE: (_act, _exp) => {
         console.log("NE", _act, _exp);
+        return (_act !== _exp);
     }
 };
 
