@@ -3,7 +3,7 @@ const obj = {
     id: "compare",
     description: "This plugin is for comparing actual and expected value with different operator, %...% check if actual is part of the expected value. v1.07 fixed numerical compare",
     author: "Hariyanto Tjhin",
-    version: "1.07",
+    version: "1.07.1",
     lastUpdate: "7-MAY-2023",
     arguments: {
         op: {type: "list", desc: "compare operator", list: ["=", "<>", ">", ">=", "<", "<=", "%...%"]}
@@ -16,13 +16,13 @@ const obj = {
         let expected = base.expected;
 
         if(!isNaN(actual)) {
-            if(actual.indexOf(".") === -1) actual = Math.parseInt(actual)
-            else actual = Math.parseFloat(actual);
+            if(actual.toString().indexOf(".") === -1) actual = Math.parseInt(actual.toString())
+            else actual = Math.parseFloat(actual.toString());
         }
 
         if(!isNaN(expected)) {
-            if(expected.indexOf(".") === -1) expected = Math.parseInt(expected)
-            else expected = Math.parseFloat(expected);
+            if(expected.toString().indexOf(".") === -1) expected = Math.parseInt(expected.toString())
+            else expected = Math.parseFloat(expected.toString());
         }
 
         switch(args.op) {
