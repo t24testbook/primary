@@ -22,6 +22,7 @@
   },
   "validationQueryPlugin": {
     "example": {"path": "example.js"},
-    "compare": {"path": "compare.js"}
+    "compare": {"path": "compare.js"},
+    "dummyTest": {"path": "dummy.js"}
   }
 }
